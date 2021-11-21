@@ -14,5 +14,5 @@ GIVEN a command-line application that accepts user input WHEN I start the applic
 
 https://watch.screencastify.com/v/oOpFcDpRG4wThx0X3YhJ
 
-https://sdb14.github.io/Express.js-Challenge-Note-Taker/
+https://github.com/SDB14/EmployeeTracker
 
