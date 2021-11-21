@@ -22,7 +22,7 @@ function questionprompt() {
         "Add a new employee",
         // "Remove an employee",
         "Update employee roles",
-        "View the total utilized budget of a department",
+        // "View the total utilized budget of a department",
         "Exit"
       ]
     }])
@@ -265,7 +265,7 @@ function addRole() {
                     },
                       function (err) {
                         if (err) throw err;
-                        console.log("Successfully updated " + updateEmployee + "'s role to " + answer.role_id + "!");
+                        console.log("Successfully updated " + updateEmployee + "'s role to " + response.role_id + "!");
                         questionprompt();
                       }
                     )
